@@ -6,6 +6,8 @@ import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 import com.google.gson.Gson;
@@ -29,6 +31,7 @@ import static jp.t2v.lab.syntax.MapStreamSyntax.entry;
 public class Registers {
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
+    private static final Pattern RANGE_PATTERN = Pattern.compile("(\\d+)-(\\d+)");
 
     public static void addAttributes() {
         ModContainer container = FMLCommonHandler.instance().findContainerFor(Almagest_Plugin.getInstance());
@@ -66,7 +69,18 @@ public class Registers {
                         attributes.entrySet().forEach(entry((s, jsonElement) -> {
                             if (StringUtils.isNumeric(s)) {
                                 int meta = Integer.valueOf(s);
-                                IModRegister.register(name.getResourceDomain(), new ItemStack(item, 1, meta), IModRegister.Attributes.pauseJson(jsonElement.getAsJsonObject()));
+                                IModRegister.register(name.getResourceDomain(), new ItemStack(item, 1, meta),
+                                    IModRegister.Attributes.pauseJson(jsonElement.getAsJsonObject()));
+                            } else {
+                                Matcher matcher = RANGE_PATTERN.matcher(s);
+                                if (matcher.matches()) {
+                                    int meta1 = Integer.valueOf(matcher.group(1));
+                                    int meta2 = Integer.valueOf(matcher.group(2));
+                                    for (int i = meta1; i <= meta2; i++) {
+                                        IModRegister.register(name.getResourceDomain(), new ItemStack(item, 1, i),
+                                            IModRegister.Attributes.pauseJson(jsonElement.getAsJsonObject()));
+                                    }
+                                }
                             }
                         }));
                     }

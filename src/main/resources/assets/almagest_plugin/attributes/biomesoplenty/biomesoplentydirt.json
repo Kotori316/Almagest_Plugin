@@ -1,0 +1,19 @@
+{
+  "name": "biomesoplenty:dirt",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "attributes": {
+    "0-2": {
+      "mineral": 10,
+      "memory": 40
+    },
+    "8-10": {
+      "mineral": 10,
+      "memory": 40
+    }
+  }
+}

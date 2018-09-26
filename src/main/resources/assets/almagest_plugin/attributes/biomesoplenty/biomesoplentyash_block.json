@@ -1,5 +1,5 @@
 {
-  "name": "biomesoplenty:gem_ore",
+  "name": "biomesoplenty:ash_block",
   "conditions": [
     {
       "type": "forge:mod_loaded",
@@ -7,9 +7,9 @@
     }
   ],
   "attributes": {
-    "0-7": {
-      "JEWEL": 50,
-      "memory": 80
+    "0": {
+      "mineral": 35,
+      "memory": 20
     }
   }
 }

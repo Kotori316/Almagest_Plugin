@@ -24,6 +24,7 @@ public class Ores {
     @Mod.EventBusSubscriber(modid = Almagest_Plugin.modID)
     public static class Trees {
         private static final Pattern FLOWER_PATTERN = Pattern.compile("flower[A-Z][a-zA-Z]+");
+        private static final Pattern PLANT_PATTERN = Pattern.compile("plant[A-Z][a-zA-Z]+");
 
         @SubscribeEvent(priority = EventPriority.LOW)
         public static void event(AttributeLevelEvent event) {
@@ -35,7 +36,7 @@ public class Ores {
                 case PLANT:
                     if (names.contains("treeLeaves") || names.contains("stickWood"))
                         event.setLevel(20);
-                    else if (names.contains("treeSapling"))
+                    else if (names.contains("treeSapling") || names.stream().map(PLANT_PATTERN::matcher).anyMatch(Matcher::matches))
                         event.setLevel(10);
                     else if (names.stream().map(FLOWER_PATTERN::matcher).anyMatch(Matcher::matches))
                         event.setLevel(10);
@@ -66,6 +67,8 @@ public class Ores {
                 event.setMemory(50);
             else if (names.stream().map(FLOWER_PATTERN::matcher).anyMatch(Matcher::matches))
                 event.setMemory(65);
+            else if(names.stream().map(PLANT_PATTERN::matcher).anyMatch(Matcher::matches))
+                event.setMemory(60);
         }
     }
 }
