@@ -1,0 +1,71 @@
+{
+  "name": "ic2:resource",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    }
+  ],
+  "attributes": {
+    "1": {
+      "mineral": 40,
+      "memory": 30,
+      "top": true,
+      "bottom": true,
+      "8": 2
+    },
+    "2": {
+      "mineral": 40,
+      "memory": 50,
+      "top": true,
+      "bottom": true,
+      "6": 3
+    },
+    "3": {
+      "mineral": 40,
+      "memory": 30,
+      "top": true,
+      "bottom": true,
+      "13": 2
+    },
+    "4": {
+      "mineral": 40,
+      "memory": 60,
+      "top": true,
+      "bottom": true,
+      "16": 3
+    },
+    "5": {
+      "metal": 60
+    },
+    "6": {
+      "metal": 60
+    },
+    "7": {
+      "metal": 60
+    },
+    "8": {
+      "metal": 60
+    },
+    "9": {
+      "metal": 60
+    },
+    "10": {
+      "metal": 60
+    },
+    "11": {
+      "mineral": 50,
+      "memory": 20,
+      "1": 3
+    },
+    "12": {
+      "machine": 20
+    },
+    "13": {
+      "machine": 40
+    },
+    "15": {
+      "metal": 60
+    }
+  }
+}

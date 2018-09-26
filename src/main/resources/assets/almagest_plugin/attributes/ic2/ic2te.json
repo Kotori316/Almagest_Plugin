@@ -1,0 +1,19 @@
+{
+  "name": "ic2:te",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    }
+  ],
+  "attributes": {
+    "1": {
+      "mineral": 15,
+      "explosive": 40
+    },
+    "2": {
+      "machine": 30,
+      "explosive": 100
+    }
+  }
+}

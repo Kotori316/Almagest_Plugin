@@ -1,0 +1,58 @@
+{
+  "name": "ic2:plate",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    }
+  ],
+  "attributes": {
+    "0": {
+      "metal": 40
+    },
+    "4": {
+      "mineral": 5,
+      "memory": 40
+    },
+    "6": {
+      "mineral": 70,
+      "memory": 50,
+      "top": true,
+      "left": true
+    },
+    "9": {
+      "metal": 60
+    },
+    "10": {
+      "metal": 60
+    },
+    "11": {
+      "metal": 60
+    },
+    "12": {
+      "metal": 60
+    },
+    "13": {
+      "mineral": 60,
+      "memory": 70,
+      "top": true,
+      "left": true,
+      "9": 2
+    },
+    "14": {
+      "metal": 60
+    },
+    "15": {
+      "mineral": 90,
+      "memory": 90,
+      "right": true,
+      "15": 3
+    },
+    "16": {
+      "metal": 60
+    },
+    "17": {
+      "metal": 60
+    }
+  }
+}

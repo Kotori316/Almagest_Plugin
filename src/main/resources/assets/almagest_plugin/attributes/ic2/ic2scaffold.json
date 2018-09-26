@@ -1,0 +1,23 @@
+{
+  "name": "ic2:scaffold",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    }
+  ],
+  "attributes": {
+    "0": {
+      "wood": 20,
+      "decorative": 10
+    },
+    "2": {
+      "metal": 20,
+      "decorative": 10
+    },
+    "3": {
+      "metal": 20,
+      "decorative": 10
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ic2:leaves",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    }
+  ],
+  "attributes": {
+    "0": {
+      "plant": 20,
+      "memory": 50,
+      "15": 1,
+      "bottom": true
+    }
+  }
+}

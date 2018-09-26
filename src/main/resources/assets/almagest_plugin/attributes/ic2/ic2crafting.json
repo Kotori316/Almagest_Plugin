@@ -1,0 +1,137 @@
+{
+  "name": "ic2:crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    }
+  ],
+  "attributes": {
+    "0": {
+      "_c": "rubber",
+      "plant": 10
+    },
+    "1": {
+      "_c": "Circuit",
+      "machine": 30
+    },
+    "2": {
+      "_c": "Adv Circuit",
+      "machine": 50
+    },
+    "3": {
+      "_c": "Alloy",
+      "metal": 70
+    },
+    "4": {
+      "_c": "iridium plate",
+      "metal": 100,
+      "memory": 70
+    },
+    "5": {
+      "metal": 40
+    },
+    "6": {
+      "metal": 40,
+      "machine": 30
+    },
+    "7": {
+      "metal": 40,
+      "plant": 20
+    },
+    "8": {
+      "metal": 20
+    },
+    "9": {
+      "metal": 20
+    },
+    "10": {
+      "metal": 20
+    },
+    "11": {
+      "metal": 20,
+      "machine": 30
+    },
+    "12": {
+      "metal": 30,
+      "machine": 40
+    },
+    "13": {
+      "mineral": 30
+    },
+    "14": {
+      "mineral": 40
+    },
+    "15": {
+      "mineral": 40
+    },
+    "16": {
+      "mineral": 40
+    },
+    "17": {
+      "mineral": 40
+    },
+    "18": {
+      "mineral": 70
+    },
+    "19": {
+      "JEWEL": 60,
+      "memory": 80,
+      "top": true,
+      "left": true,
+      "right": true
+    },
+    "20": {
+      "plant": 40,
+      "memory": 70
+    },
+    "21": {
+      "plant": 40,
+      "memory": 70
+    },
+    "23": {
+      "_c": "Scrap"
+    },
+    "24": {
+      "_c": "Scrap box"
+    },
+    "25": {
+      "mineral": 40
+    },
+    "27": {
+      "mineral": 40
+    },
+    "29": {
+      "metal": 60
+    },
+    "30": {
+      "metal": 60
+    },
+    "31": {
+      "wood": 40,
+      "memory": 15
+    },
+    "32": {
+      "metal": 60
+    },
+    "33": {
+      "metal": 60
+    },
+    "34": {
+      "mineral": 60
+    },
+    "35": {
+      "metal": 60
+    },
+    "36": {
+      "metal": 70
+    },
+    "37": {
+      "tool": 30,
+      "memory": 50
+    },
+    "38": {
+      "metal": 10
+    }
+  }
+}

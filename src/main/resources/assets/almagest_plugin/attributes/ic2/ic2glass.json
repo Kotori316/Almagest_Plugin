@@ -1,0 +1,15 @@
+{
+  "name": "ic2:glass",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    }
+  ],
+  "attributes": {
+    "0": {
+      "mineral": 60,
+      "metal": 20
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ic2:fence",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    }
+  ],
+  "attributes": {
+    "0": {
+      "metal": 30,
+      "decorative": 20
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "biomesoplenty:gem_ore",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "attributes": {
+    "0": {
+      "JEWEL": 50,
+      "memory": 80
+    },
+    "1": {
+      "JEWEL": 50,
+      "memory": 80
+    },
+    "2": {
+      "JEWEL": 50,
+      "memory": 80
+    },
+    "3": {
+      "JEWEL": 50,
+      "memory": 80
+    },
+    "4": {
+      "JEWEL": 50,
+      "memory": 80
+    },
+    "5": {
+      "JEWEL": 50,
+      "memory": 80
+    },
+    "6": {
+      "JEWEL": 50,
+      "memory": 80
+    },
+    "7": {
+      "JEWEL": 50,
+      "memory": 80
+    }
+  }
+}

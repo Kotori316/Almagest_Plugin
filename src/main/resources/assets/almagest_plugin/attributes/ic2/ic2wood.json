@@ -1,0 +1,17 @@
+{
+  "name": "ic2:rubber_wood",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    }
+  ],
+  "attributes": {
+    "0": {
+      "wood": 20,
+      "memory": 50,
+      "13": 1,
+      "left": true
+    }
+  }
+}

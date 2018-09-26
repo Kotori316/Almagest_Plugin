@@ -1,0 +1,16 @@
+{
+  "name": "ic2:wall",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    }
+  ],
+  "attributes": {
+    "0": {
+      "decorative": 10,
+      "memory": 30,
+      "8": 2
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ic2:sapling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ic2"
+    }
+  ],
+  "attributes": {
+    "0": {
+      "plant": 10,
+      "memory": 75,
+      "19": 3,
+      "left": true,
+      "right": true
+    }
+  }
+}
